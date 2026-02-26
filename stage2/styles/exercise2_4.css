@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "left-sidebar header header right-sidebar"
+        "left-sidebar left-main right-main right-sidebar"
+        "footer footer footer footer";
+}
+
+#sq1 {
+    grid-area: left-sidebar;
+}
+
+#sq2 {
+    grid-area: footer;
+}
+
+#sq3 {
+    grid-area: right-sidebar;
+}
+
+#sq4 {
+    grid-area: header;
+}
+
+#sq5 {
+    grid-area: left-main;
+}
+
+#sq6 {
+    grid-area: right-main;
+}
