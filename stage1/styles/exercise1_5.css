@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+
+}
+
+
+#sq1 { align-self: flex-start; }
+#sq2 { align-self: center; }
+#sq3 { align-self: flex-end;}
+
+#sq4 { align-self: flex-start; margin-left: -200px;}
+#sq5 { align-self: center; }
+#sq6 { align-self: flex-end; }
+
+#sq7 { align-self: flex-start; margin-left: -200px;}
+#sq8 { align-self: center; }
+#sq9 { align-self: flex-end; }
